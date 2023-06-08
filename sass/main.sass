@@ -1,2 +1,53 @@
+$main: #093CB5
+$white: #fff
+    
+    
 body 
-    background-color: red
+    font-family: 'Inter', sans-serif
+
+.container 
+    max-width: 1700px
+    width: 96%
+    margin: auto
+
+
+.header 
+    padding-top: 80px 
+    &-wrap 
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-left, &-right 
+        width: 50%
+    &-left 
+        display: flex
+        justify-content: space-between
+    &-right 
+        display: flex
+        justify-content: flex-end
+    &-menu 
+        cursor: pointer
+        &__button
+            background-color: $main
+            padding: 15px 25px 
+            border-radius: 50px
+            display: flex
+            align-items: center
+            span 
+                font-size: 30px 
+                color: $white
+                margin-left: 10px
+    &-icons 
+        img 
+            margin-left: 20px
+            cursor: pointer
+
+
+
+
+
+
+
+
+
+

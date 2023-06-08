@@ -1,4 +1,1 @@
-body {
-  background-color: red;
-}
-/*# sourceMappingURL=main.css.map */
+body{font-family:"Inter",sans-serif}.container{max-width:1700px;width:96%;margin:auto}.header{padding-top:80px}.header-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.header-left,.header-right{width:50%}.header-left{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.header-right{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.header-menu{cursor:pointer}.header-menu__button{background-color:#093cb5;padding:15px 25px;border-radius:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.header-menu__button span{font-size:30px;color:#fff;margin-left:10px}.header-icons img{margin-left:20px;cursor:pointer}
