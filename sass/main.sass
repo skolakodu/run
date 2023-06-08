@@ -1,7 +1,10 @@
 $main: #093CB5
 $white: #fff
-    
-    
+$black: #000    
+
+* 
+    box-sizing: border-box    
+
 body 
     font-family: 'Inter', sans-serif
 
@@ -38,9 +41,69 @@ body
                 color: $white
                 margin-left: 10px
     &-icons 
+        position: relative
+        z-index: 99
         img 
             margin-left: 20px
             cursor: pointer
+
+.offer 
+    &-wrap 
+        display: flex
+        justify-content: space-between
+    &-left
+        width: 40%
+    &-right 
+        width: 60%
+    &-header 
+        font-size: 128px 
+        letter-spacing: -3px
+        color: $black
+        font-weight: 700
+        margin-bottom: 60px
+    &-desc 
+        font-size: 22px
+        line-height: 30px 
+        color: $black
+        margin-bottom: 100px
+    &-buttons 
+        display: flex
+        a 
+            padding: 30px 60px
+            border-radius: 50px
+            text-decoration: none
+            border: 3px solid $main
+            width: 300px
+            text-align: center
+            margin-right: 30px
+            transition: .2s
+        a.btn-blue
+            background-color: $main
+            color: $white 
+            &:hover
+                background-color: transparent
+                color: $main
+        a.btn-white
+            color: $main 
+            border: 3px solid transparent
+            position: relative
+            &::before
+                content: ""
+                background-image: url("../img/CallMe.svg")
+                width: 30px 
+                height: 30px
+                display: block
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+                left: 55px
+            &:hover 
+                border: 3px solid $main
+    &-image 
+        img 
+            width: 100%
+            margin-top: -150px
+
 
 
 
